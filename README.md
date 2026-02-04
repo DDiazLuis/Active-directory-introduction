@@ -84,7 +84,7 @@ Let's begin!
 1. Log into your Azure account and navigate to Resource Groups in Azure and create a Resource Group named "Active_Directory." Note the region you are selecting, your Virtual Network and VM's will be set up in the same region. Once details have been selected, click on "Review + create" and then "Create" once validation passes. 
 
 <p align="center">
-<img src="https://i.imgur.com/Z8APBbg.png" alt="AD Desktop"/>
+<img srcZ8APBbg.png="https://i.imgur.com/" alt="AD Desktop"/>
 </p>
 
 <p align="center">
