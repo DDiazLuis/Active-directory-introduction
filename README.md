@@ -46,34 +46,8 @@ This tutorial outlines the prerequisites, installation, basic setup, and managem
 <img src="https://i.imgur.com/r7TcRxI.png" alt="AD Desktop"/>
 </p>
 
-Active Directory is a directory service created by Microsoft that gives organizations the ability to manage Windows domain networks. Administrators have the ability to manage networks, peripherals, software installations, upgrades, patches, rollbacks, as well as secure these surfaces. In addition, users and their respective groups, devices, and permissions can be managed all from one place, and these changes will be reflected on all nodes which are attached to the domain. It's a powerful tool that creates a cohesive work environment and makes management of large technology needs across an organization easier and more effective. 
+Active Directory is a directory service created by Microsoft that gives organizations the ability to manage Windows domain networks. Administrators have the ability to manage networks, peripherals, software installations, upgrades, patches, rollbacks, as well as secure these surfaces. In addition, users and their respective groups, devices, and permissions can be managed all from one place, and these changes will be reflected on all nodes which are attached to the domain. It's a powerful tool that creates a cohesive work environment and makes management of large technology needs across an organization easier and more effective.  
 
----
-
-# What Will We Accomplish?
-
-In this lab, we are going to stand up an instance of Active Directory using two virtual machines in Microsoft's cloud platform, Azure. The first VM will be our domain controller, which is a server that will be running Windows Server 2022. The second VM will be a client computer which we will register to the domain created by the domain controller. Once this is done, we'll do some additional configuring of our domain controller, and then create a large batch of users in our organization using the PowerShell command line interface. Finally, with our users created, we have a "company" to work with, and we'll create Group Policy and manage user accounts to simulate a simplified version of how Active Directory would be deployed in a real-life organization. 
-
----
-
-# Important Notes And How To Use This Lab
-
-You can jump straight to any section of this lab by clicking its corresponding link in the Table of Contents above. 
-
-This is a lengthy lab and it's recommended that you tackle one section at a time. Information here is current as of October of 2024. Azure and Active Directory are constantly changing and being updated by Microsoft. This tutorial is not evergreen, and changes will be made to these platforms which inevitably will not be reflected in the documentation below. You should still be able to generally work out where and how to perform the illustrated functions with help from other resources such as AI, YouTube, direct vendor support, etc. 
-
-This tutorial does not cover how to use Azure to create an account, tenant (organization), subscription, or log into Azure. It also assumes that you are familiar with how to use Remote Desktop or the Windows App (on Mac) to log into a VM created in Azure. If you do not know how to do this, YouTube has many great resources that will walk you through the process. 
-
-This lab is demonstrated with the Windows App since it was built while logged in from a Mac. There is almost no difference in doing this on a Windows or Mac with the exception that Mac users will have to download the Windows App from the App Store to log into their VM's. Windows users will use Remote Desktop as normal. 
-
-These builds do not assume the most secure posture possible, the goal is to set up a functioning instance of AD. In fact, by the end of the lab when you review security logs, you will most likely see that there have been outside login attempts on your VM's. This is normal and is not cause for panic. Because we're working in the cloud, we don't have to worry about any of our own equipment or information being compromised by bad actors. It is beyond the scope of this lab to teach secure configuration of the entire domain controller, please refer to other resources further exploration of AD security measures. 
-
-Expect that this lab, from start finish, will take you several hours, possibly several days depending on your experience level. As you become more familiar with these environments, your speed and accuracy will improve. It's recommended that you perform these exercises multiple times to develop a solid foundation in AD deployment and management. Of course, an IRL deployment in any given organization will be different and will depend on their particular resources, solutions, and risk appetite. 
-
-All functions performed here in Azure can also be performed locally on your machine using VM hypervisors such as Virtualbox or VMWare to create the associated VM's given you have copies of the operating system images to install on them and something to create your virtual network connections such as ESXi. This lab does not cover local provisioning and completion of that kind of environment, and extra security precautions should be taken should you decide to go this route. 
-
-
-Let's begin! 
 
 ---
 
