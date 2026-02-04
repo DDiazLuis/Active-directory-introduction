@@ -72,8 +72,6 @@ Expect that this lab, from start finish, will take you several hours, possibly s
 
 All functions performed here in Azure can also be performed locally on your machine using VM hypervisors such as Virtualbox or VMWare to create the associated VM's given you have copies of the operating system images to install on them and something to create your virtual network connections such as ESXi. This lab does not cover local provisioning and completion of that kind of environment, and extra security precautions should be taken should you decide to go this route. 
 
-Windows App (Formerly Remote Desktop) For Mac Users: 
-https://apps.apple.com/us/app/windows-app/id1295203466?mt=12
 
 Let's begin! 
 
