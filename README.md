@@ -1,7 +1,4 @@
 # Active-directory-introduction
-<p align="center">
-
-
 
 <h2>Microsoft Active Directory - An Introductory Lab In The Cloud</h2>
 This tutorial outlines the prerequisites, installation, basic setup, and management of users in Microsoft Active Directory using compute power on Microsoft's Azure cloud service platform.<br />
