@@ -15,39 +15,6 @@ This tutorial outlines the prerequisites, installation, basic setup, and managem
 - Active Directory Domain Services
 - PowerShell
 
-<h2>Operating Systems Used </h2>
-
-- Windows 10 Pro</b> (22H2)
-- Windows Server 2022 Datacenter: Azure Edition</b> 
-
-<h2>List of Prerequisites</h2>
-
-- Tenant/Subscription to Microsoft Azure
-- Ability to use MS Remote Desktop or Windows App (on Mac) to log into a Virtual Machine.
-
----
-
-## TABLE OF CONTENTS
-
-- [Overview: What Is Active Directory](#overview-what-is-active-directory)
-- [What Will We Accomplish?](#what-will-we-accomplish)
-- [Important Notes And How To Use This Lab](#important-notes-and-how-to-use-this-lab)
-- [Preparing AD Infrastructure in Azure](#preparing-ad-infrastructure-in-azure)
-- [Deploying Active Directory](#deploying-active-directory)
-- [Creating Users with PowerShell](#creating-users-with-powershell)
-- [Group Policy and Managing Accounts](#group-policy-and-managing-accounts)
-- [Closing Comments](#closing-comments)
-
----
-
-# Overview: What Is Active Directory?
-
-<p align="center">
-<img src="https://i.imgur.com/r7TcRxI.png" alt="AD Desktop"/>
-</p>
-
-Active Directory is a directory service created by Microsoft that gives organizations the ability to manage Windows domain networks. Administrators have the ability to manage networks, peripherals, software installations, upgrades, patches, rollbacks, as well as secure these surfaces. In addition, users and their respective groups, devices, and permissions can be managed all from one place, and these changes will be reflected on all nodes which are attached to the domain. It's a powerful tool that creates a cohesive work environment and makes management of large technology needs across an organization easier and more effective.  
-
 
 ---
 
