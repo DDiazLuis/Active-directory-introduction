@@ -1,7 +1,7 @@
 # Active-directory-introduction
 <p align="center">
-<img src="https://camo.githubusercontent.com/e38ed1b3f8f0cff62ee2117afc871396adea4a1266dbebb482b5080db92184af/68747470733a2f2f692e696d6775722e636f6d2f705535413538532e706e67" alt="AD logo"/>
-</p>
+<img src="https://camo.githubusercontent.com/e38ed1b3f8f0cff62ee2117afc871396adea4a1266dbebb482b5080db92184af/68747470733a2f2f692e696d6775722e636f6d2f705535413538532e706e67" 
+
 
 <h1>Microsoft Active Directory - An Introductory Lab In The Cloud</h1>
 This tutorial outlines the prerequisites, installation, basic setup, and management of users in Microsoft Active Directory using compute power on Microsoft's Azure cloud service platform.<br />
